@@ -1,64 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html land="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-UA-Compatible" content="ie=edge">
     <title>Jorge Contreras</title>
     <link rel="icon" href="j.ico">
-    <!-- css -->
-    <style type="text/css">
-        body {
-            color: blueviolet;
-            background-color: black;
-        }
-
-        #section1 {
-            font-size: 60px;
-            text-align: center;
-            
-        }
-
-        #proyectos {
-            display: grid;
-            grid-template-columns: auto auto;
-        }
-
-        .proyecto img {
-            width: 50%;
-        }
-
-        .redonda {
-            width:300px;
-            height:300px;
-            border-radius:150px;
-            
-        }
-
-
-        
-    </style>
-    
-    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="jorge">
-        <img src="jorge.jpg" class="redonda">
-    </div>
-    <section id="section1">
-        <h1>portafolio</h1>
-    </section>
-    <section id="proyectos">
-        <div class="proyecto">
-            <img src="designer.jpg">
-            <p>Javascript</p>
+    <header>
+        <nav>
+            <a href="a">Inicio</a>
+            <a href="a">Acerca de</a>
+            <a href="a">Portafolio</a>
+            <a href="a">Servicios</a>
+            <a href="a">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Portafolio</h1>
+            <h2>Argentina Programa</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 352.36,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path>
+        </svg></div>
+    </header>
+    <main>
+        <section class="contenedor_sobre-nosotros">
+            <h2 class="titulo">Nuestro Producto</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="ilustracion.verde.jpg" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span> los mejores productos</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Molestias perferendis fuga dolorum in, dicta sunt possimus culpa fugit cumque consequatur vel. 
+                    Hic saepe totam ut ullam optio. Quasi, sed in.</p>
+                    <h3><span>2</span> los mejores productos</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Molestias perferendis fuga dolorum in, dicta sunt possimus culpa fugit cumque consequatur vel. 
+                    Hic saepe totam ut ullam optio. Quasi, sed in.</p>
+                </div>     
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">portafolio</h2>
+                <div class="galeria-portafolio">
+                    <div class="imagen-portafolio">
+                        <img src="laptop.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="laptop.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="laptop.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="laptop.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes-contenedor">
+            <h2 class="titulo">que dicen nuestros clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="jorge.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Name</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, rerum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="jorge.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Name</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, rerum?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">nuestros Servicios</h2>
+                <div class="servicios-contenedor">
+                    <div class="servicio-individual">
+                        <img src="escritorio-verde.jpg" alt="">
+                        <h3>name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, vero.</p> 
+                    </div>
+                    <div class="servicio-individual">
+                        <img src="mano-verde.jpg" alt="">
+                        <h3>name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, vero.</p> 
+                    </div>
+                    <div class="servicio-individual">
+                        <img src="verde-sentado.jpg" alt="">
+                        <h3>name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, vero.</p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>+54 11 37706136</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>jorgitoxjff@gmial.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Instagram</h4>
+                <p>@georgecontras</p>
+            </div>
         </div>
-        <div class="proyecto">
-            <img src="wed.jpg">
-            <p>Html</p>
-        </div>
-        
-    </section>
-    
-
+        <h2 class="titulo-final">&copy; Jorge Contreras</h2>
+    </footer>
 </body>
-<!-- javascript-->
-    <script src="test.js"></script>
+
 </html>
