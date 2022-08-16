@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <a href="a">Inicio</a>
-            <a href="a">Acerca de</a>
-            <a href="a">Portafolio</a>
-            <a href="a">Servicios</a>
-            <a href="a">Contacto</a>
+            <a href="#welcome-section">About</a>
+            <a href="#welcome-work">Work</a>
+            <a href="#welcome-skills">Skills</a>
+            <a href="#welcome.contact">Contact</a>
             <img src="img/logo.png" class="logo">
         </nav>
         <section class="textos-header">
@@ -33,73 +33,76 @@
     </header>
     <main>
         <section class="contenedor_sobre-nosotros">
-            <h2 class="titulo">Nuestro Producto</h2>
+            <h2 id="welcome-section"class="titulo">ABOUT</h2>
             <div class="contenedor-sobre-nosotros">
                 <img src="img/jorge.jpg" class="imagen-about-us">
                 <div class="contenido-textos">
-                    <h3>los mejores productos</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Molestias perferendis fuga dolorum in, dicta sunt possimus culpa fugit cumque consequatur vel. 
-                    Hic saepe totam ut ullam optio. Quasi, sed in.</p>
+                    <h3>FULL STACK JR.</h3>
+                    <p>Passionate Full Stack Developer jr. Problem solver and hands on the job. Innovative. Excellent technical and communication skills. Always motivated to learn new things. Open to transfer abroad to face new professional and personal challenges. Venezuelan and Argentinian Nationality.</p>
                     
                 </div>     
             </div>
         </section>
-        <section class="portafolio">
-            <div class="contenedor">
-                <h2 class="titulo">portafolio</h2>
-                <div class="galeria-portafolio">
-                    <div class="imagen-portafolio">
-                        <img src="img/laptop.jpg" alt="">
-                        <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-portafolio">
-                        <img src="img/laptop.jpg" alt="">
-                        <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-portafolio">
-                        <img src="img/laptop.jpg" alt="">
-                        <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-portafolio">
-                        <img src="img/laptop.jpg" alt="">
-                        <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                </div>
+        <section id="welcome-work" class="projects-section">
+            <h2 class="titulo">These are some of my projects</h2>
+      
+            <div class="projects-grid">
+              <a
+                href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+                target="_blank"
+                class="project project-title"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Tribute Page
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              
+              <a
+                href="https://codepen.io/freeCodeCamp/full/wgGVVX"
+                target="_blank"
+                class="project project-title"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  JavaScript Calculator
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://codepen.io/freeCodeCamp/full/mVEJag"
+                target="_blank"
+                class="project project-title"
+              >
+                
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Tic Tac Toe Game
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
             </div>
-        </section>
- <!--       <section>
-            <div class="clientes-contenedor">
-                <h2 class="titulo">que dicen nuestros clientes</h2>
-                <div class="cards">
-                    <div class="card">
-                        <img src="jorge.jpg" alt="">
-                        <div class="contenido-texto-card">
-                            <h4>Name</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, rerum?</p>
-                        </div>
-                        </div>
-                    <div class="card">
-                        <img src="jorge.jpg" alt="">
-                        <div class="contenido-texto-card">
-                            <h4>Name</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, rerum?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-        <section class="about-services">
+      
+          </section>
+        <section id="welcome-skills"class="about-services">
             <div class="contenedor">
-                <h2 class="titulo">nuestros Servicios</h2>
+                <h2 class="titulo">skills</h2>
                 <div class="servicios-contenedor">
                     <div class="servicio-individual">
                         <img src="img/escritorio-verde.jpg" alt="">
@@ -122,20 +125,20 @@
     </main>
         
     <footer>
-        <div id="contact" class="contenedor-footer">
+        <div  class="contenedor-footer">
             <div class="contenedor-foo">
-              <h2>Let's work together...</h2>
+              <h2 id="welcome.contact">Let's work together...</h2>
             </div>
             <div class="contact-links">       
               <a href="https://www.instagram.com/georgecontras/" target="_blank" class="icon icon--instagram"><i class="fa-brands fa-instagram"></i></a>
 
               <a href="https://github.com/georgecontras/" target="_blank" class="icon icon--github"><i class="fab fa-github"></i></a>
 
-              <a href="/cdn-cgi/l/email-protection#b5d0cdd4d8c5d9d0f5d0cdd4d8c5d9d09bd6dad8" class="icon icon--linkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://linkedin.com/in/jorge-contreras-769029229/" class="icon icon--linkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
 
-              <a href="/cdn-cgi/l/email-protection#b5d0cdd4d8c5d9d0f5d0cdd4d8c5d9d09bd6dad8" class="icon icon--email"><i class="fas fa-at"></i></a> 
+              <a href="mailto:jorgitoxjff@gmail.com?body=Hello%20Jorge!!" class="icon icon--email"><i class="fas fa-at"></i></a> 
 
-              <a href="tel:555-555-5555" class="icon icon--whatsapp"> <i class="fa-brands fa-whatsapp"></i></a>
+              <a href="https://wa.me/+541137706136?text=Hola Jorge!!" class="icon icon--whatsapp"> <i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </div>
     
